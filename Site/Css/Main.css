@@ -1,0 +1,297 @@
+body{
+    margin: 0;
+    height: 599vh;
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll; overflow-x:hidden;
+    
+}
+header{
+    position: sticky;
+    left: 0px;
+    z-index: 3;
+    width: 100%;
+    height: 70px;
+    background-color: red;
+    font-family: 'Courier New', Courier, monospace;
+    opacity: 0.9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-box-shadow: 10px 10px 11px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 11px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 11px 0px rgba(0,0,0,0.75);
+    color: whitesmoke;
+    text-shadow:
+    0.05em 0 black,
+    0 0.05em black,
+    -0.05em 0 black,
+    0 -0.05em black,
+    -0.05em -0.05em black,
+    -0.05em 0.05em black,
+    0.05em -0.05em black,
+    0.05em 0.05em black;
+}
+
+.material-icons{
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 0%;
+    bottom: 80%;
+}
+
+.about{
+    position: absolute;
+    bottom: -33%;
+    right: 35%;
+    width: 30%;
+    height: 60%;
+    background-color: aliceblue;
+    z-index: 3;
+    font-size: 10px;
+    text-shadow:
+    0.05em 0 black,
+    0 0.05em black,
+    -0.05em 0 black,
+    0 -0.05em black,
+    -0.05em -0.05em black,
+    -0.05em 0.05em black,
+    0.05em -0.05em black,
+    0.05em 0.05em black;
+    text-align: center;
+    -webkit-box-shadow: 10px 10px 11px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 11px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 11px 0px rgba(0,0,0,0.75);
+}
+
+.home{
+    position: absolute;
+    bottom: -33%;
+    right: 35%;
+    width: 30%;
+    height: 60%;
+    background-color: aliceblue;
+    z-index: 3;
+    font-size: 10px;
+    text-shadow:
+    0.05em 0 black,
+    0 0.05em black,
+    -0.05em 0 black,
+    0 -0.05em black,
+    -0.05em -0.05em black,
+    -0.05em 0.05em black,
+    0.05em -0.05em black,
+    0.05em 0.05em black;
+    text-align: center;
+    -webkit-box-shadow: 10px 10px 11px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 11px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 11px 0px rgba(0,0,0,0.75);
+}
+.about:hover{
+    filter: brightness(90%)
+}
+a {
+    color: aliceblue;
+}
+
+.wrapper{
+    height: 100%;
+    background-image: url(../img/phonewallpapper.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.wrapper2{
+    height: 100%;
+    width: 100%;
+    background-image: url(../img/PhoneWallpapper2.png);
+    
+}
+
+.tree{
+    height: 90%;
+    width: 100%;
+    top: 0%;
+    
+}
+
+.wholeball{
+    height: 500px;
+    width: 00px;
+    position: relative;
+    left: 18%;
+    
+}
+
+.boll:nth-of-type(5n){
+    
+    background-color: darkmagenta;
+    
+}
+.boll:nth-of-type(4n){
+    
+    background-color: cadetblue;
+    
+}
+
+.boll:nth-of-type(7n){
+    
+    background-color: darkblue;
+    
+}
+
+.boll:nth-of-type(2){
+    
+    background-color: dodgerblue;
+    
+}
+
+.boll:nth-of-type(23){
+    
+    background-color: dodgerblue;
+    
+}
+
+.boll:nth-of-type(18){
+    
+    background-color: dodgerblue;
+    
+}
+
+
+.boll{
+    
+    height: 155px;
+    width: 155px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    margin: 40px;
+    -webkit-box-shadow: 10px 10px 11px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 11px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 11px 0px rgba(0,0,0,0.75);
+    
+}
+
+.boll:hover{
+    filter: brightness(85%);
+}
+
+.bollaktivering{
+    
+    display: none !important;
+    
+}
+
+.bollfakta{
+    
+    display: block;
+    
+    height: 400px;
+    width: 300px;
+    color: whitesmoke;
+    text-shadow:
+    0.05em 0 black,
+    0 0.05em black,
+    -0.05em 0 black,
+    0 -0.05em black,
+    -0.05em -0.05em black,
+    -0.05em 0.05em black,
+    0.05em -0.05em black,
+    0.05em 0.05em black;
+    align-content: center;
+    justify-content: center;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    z-index: 1;
+    position: fixed;
+    bottom: 170px;
+    right: 35px;
+    /* border-color:  */
+    -webkit-box-shadow: 10px 10px 11px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 11px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 11px 0px rgba(0,0,0,0.75);
+    border: 5px solid whitesmoke;
+    
+    
+}
+
+#one{
+    
+    background-image: url("../img/legony.png");    
+    height: 300px;
+    position: fixed;
+    bottom: 230px;
+    
+}
+
+#two{
+    background-image: url("../img/kfcjapny.png"); 
+    font-size: 60px;
+    
+}
+
+#three{
+    height: 350px;
+    background-image: url("../img/jewishXmas.png"); 
+}
+
+#four{
+    background-image: url("../img/ScienceSanta.png");
+    height: 400px;
+    width: 320px;
+    right: 25px;
+}
+
+#five{
+    font-size: 27px;
+    background-image: url("../img/WhatGender.png");
+}
+
+#six{
+    font-size: 36.15px;
+    background-image: url("../img/ZooEating.png");
+}
+
+#seven{
+    font-size: 4px;
+}
+
+
+
+
+/* @media only screen  and (min-width : 1224px){
+
+    body{
+    height: 100vh;
+    }
+
+    .wrapper{
+        background-image: url("../img/Snowbackground.png");
+    }
+   
+    }
+    .tree{
+        background-image: url("../img/TreeEdit.png");
+        background-attachment: unset;
+        background-repeat: no-repeat;
+        bottom: 0%;
+        right: 0%;
+        height: 100%;
+        width: 100%;
+        z-index: 10;
+        display: flex;
+        
+    }
+    .boll{
+        height: 10px;
+        width: 10px;
+    }
+} */
